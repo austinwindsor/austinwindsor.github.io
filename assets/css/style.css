@@ -211,8 +211,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/hero-bg.JPG") top center;
-  background-size: cover;
+  background: url("/assets/img/forest-photo-flip.JPG") top center;
+  background-size: contain;
 }
 
 #hero:before {
