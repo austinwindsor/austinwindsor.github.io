@@ -1144,3 +1144,48 @@ section {
 .media-body {
   flex: 1
 }
+/* Austin Windsor custom cleanup */
+.hero-subtitle {
+  color: #fff;
+  font-size: 22px;
+  max-width: 760px;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+
+.focus-box {
+  min-height: 240px;
+}
+
+.focus-box h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 12px 0 8px;
+  color: #173b6c;
+}
+
+.focus-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.cert-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.cert-badge {
+  max-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card {
+  width: 100%;
+}
+
+.services .icon-box .title {
+  color: #173b6c;
+}
