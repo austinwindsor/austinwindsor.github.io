@@ -209,10 +209,27 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: calc(100% - 300px);
   height: 100vh;
-  background: url("/assets/img/hero-bg.JPG") top center;
+  margin-left: 300px;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+}
+
+/* Desktop: account for fixed left sidebar */
+@media (min-width: 1200px) {
+  #hero {
+    width: calc(100% - 300px);
+    margin-left: 300px;
+  }
+}
+
+/* Tablet/mobile: sidebar is hidden/collapsed */
+@media (max-width: 1199px) {
+  #hero {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 #hero:before {
