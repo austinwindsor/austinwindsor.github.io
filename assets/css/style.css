@@ -254,9 +254,19 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
+/* Desktop: account for fixed left sidebar */
+@media (min-width: 1200px) {
   #hero {
-    background-attachment: fixed;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+  }
+}
+
+/* Tablet/mobile: sidebar is hidden/collapsed */
+@media (max-width: 1199px) {
+  #hero {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
